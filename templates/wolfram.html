@@ -1,0 +1,264 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8" />
+        <title>Wolfram|Beta: Computational Intelligence</title>
+        <script>
+            function popup() {
+                console.log('ok cat')
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+        <script>
+            function clearit() {
+                document.getElementById('eq').value=""
+                document.getElementById('to').value=""
+                document.getElementById('from').value=""
+            }
+        </script>
+
+
+        <script
+            type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"
+        ></script>
+        <script src="{{url_for('static', filename='jsScriptWolfram.js')}}"></script>
+        <link rel="icon" 
+        type="image/png" 
+        href="/static/iconsimple.png">
+        <link rel="stylesheet" href="../static/styles.css" data-n-g="" />
+        <link rel="stylesheet" href="../static/normalize.css" data-n-g="" />
+    </head>
+    <body>
+        <!-- technical stuff pop up -->
+        <div class="popup " id="myPopup">
+            <div class="resSheet centered">
+            <section class="resN">
+                <header class="resHead">
+                   <p class="poptext"> Technical Stuff</p>
+                   <svg class="icnSvgX xpop" onclick="popup()" version="1.1" id="Layer_1" viewBox="0 0 247 247">
+                    <path class="st0" d="M217.71,0H30.12C13.48,0,0,13.48,0,30.12v187.6c0,16.63,13.48,30.12,30.12,30.12h187.6  c16.63,0,30.12-13.48,30.12-30.12V30.12C247.83,13.48,234.34,0,217.71,0z M190.79,166.08c3.45,3.45,3.45,9.05,0,12.51l-9.88,9.88  c-3.45,3.45-9.05,3.45-12.51,0l-41.15-41.15l-38.6,38.6c-3.45,3.45-9.05,3.45-12.51,0l-9.88-9.88c-3.45-3.45-3.45-9.05,0-12.51  l38.6-38.6l-38.6-38.6c-3.45-3.45-3.45-9.05,0-12.51l9.88-9.88c3.45-3.45,9.05-3.45,12.51,0l38.6,38.6L168.4,61.4  c3.45-3.45,9.05-3.45,12.51,0l9.88,9.88c3.45,3.45,3.45,9.05,0,12.51l-41.15,41.15L190.79,166.08z"></path>
+                </svg>
+                </header>
+                <div class="resVal">
+                    <ul>
+                        <li>
+                            The frontend of the webpage is designed and developed using <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b>.
+                        </li>
+                        <li>
+                            The backend is developed using <b>Python</b>, <b>Flask</b>, and <b>Javascript</b>
+                        </li>
+                        <li>
+                            The numerical method used to find the root was the <a href="https://en.wikipedia.org/wiki/Bisection_method">Bisection Method</a>.
+                            Although it was a powerful way to find the root, it had some disadvantages so I had to develop my own (basic) method of optimizing the sectioning and finding the root.
+                        </li>
+                        <li>
+                            The algorithm will try its best to find up to 2 roots in the given range, although it might face some difficulties in some conditions.
+                            emojies where used to represent the difficulty of finding the root <br>(👌: Solution from the first step. 🙂: Solution from the second step 😅: Solution from the third step 🙁: No solution was found ❌: something went wrong (function contains nan or division by 0))
+                        </li>
+                        <li>
+                            Plot range can be determined automatically, although it might lead to some too-zoomed-in results    
+                        </li>
+                        <li>
+                            The graph visual is created with <a href="https://developers.google.com/chart">Google Charts</a>.
+                        </li>
+                        <li>
+                            The most challenging part was finding a way to insert the x,y series into the graph visual using javascript.
+                        </li>
+                    </ul>  
+                </div>
+            </section>
+        </div>
+        </div>
+        
+
+        <header class="_1ORL">
+            <nav class="banner">
+                <ul class="_1rke">
+                    <li class="_2tFS">
+                        <a class="_1w_c _33TR _1axH"
+                            >UPGRADE TO PRO
+                        </a>
+                    </li>
+                    <li class="_2tFS">
+                        <button class="_1w_c _27i3 _28rn">Sign In</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="_1MeJ _3eup">
+            <main class="_28em">
+                <div class="_2UIf">
+                    <!-- search bar with logo -->
+                    <a
+                        class="_1w_c _3baZ _1OQ2 _vOBs"
+                        href="../templates/wolfram.html"
+                    >
+                        <img src="..\static\wolframbetalogo.svg" class="_1WrC" />
+                    </a>
+                    <div class="_2Ejx">
+                        <section class="_2Ivn">
+                            <form class="_qWYj _afhh _1OU6">
+                                <!-- search bar txt -->
+                                <div class="srchTxt">
+                                    <input
+                                        type="text"
+                                        name="equation"
+                                        id="eq"
+                                        class="_O3dq"
+                                        placeholder="Enter ur eq bro"
+                                        autocomplete="on"
+                                    />
+
+                                    <!-- <input class="_O3dq" placeholder="Enter ur eq bro" enterkeyhint="go" autocapitalize="none" value="" /> -->
+                                </div>
+                                <div class="tfContu">
+                                    <div class="toFromu">
+                                        <input class="rangVal" type="float" name="to" placeholder="From" id="to" />
+                                        <input class="rangVal" type="float" name="from" placeholder="To" id="from" />
+                                    </div>
+                                </div>
+                                <!-- search icon -->
+
+                                <div class="srchIcon">
+                                    <!--  [x] icon -->
+                                    <svg
+                                        class="icnSvgX" onclick="clearit()" version="1.1" id="Layer_1" viewBox="0 0 247 247" >
+                                        <path
+                                        class="st0" d="M217.71,0H30.12C13.48,0,0,13.48,0,30.12v187.6c0,16.63,13.48,30.12,30.12,30.12h187.6  c16.63,0,30.12-13.48,30.12-30.12V30.12C247.83,13.48,234.34,0,217.71,0z M190.79,166.08c3.45,3.45,3.45,9.05,0,12.51l-9.88,9.88  c-3.45,3.45-9.05,3.45-12.51,0l-41.15-41.15l-38.6,38.6c-3.45,3.45-9.05,3.45-12.51,0l-9.88-9.88c-3.45-3.45-3.45-9.05,0-12.51  l38.6-38.6l-38.6-38.6c-3.45-3.45-3.45-9.05,0-12.51l9.88-9.88c3.45-3.45,9.05-3.45,12.51,0l38.6,38.6L168.4,61.4  c3.45-3.45,9.05-3.45,12.51,0l9.88,9.88c3.45,3.45,3.45,9.05,0,12.51l-41.15,41.15L190.79,166.08z"/>
+                                    </svg>
+                                    <!--  [=] icon -->
+                                    <div class="srchBtn" type="button">
+                                        <svg class="icnSvg" viewBox="0 0 24 24">
+                                            <path
+                                                class="_1cA0"
+                                                d="M19 2H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zm-2 13H7v-2h10zm0-4H7V9h10z"
+                                                fill="#6a1eaf"
+                                            ></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                    <div class="tst"></div>
+                </div>
+                <!-- Equation Examples -->
+                <div class="examples"> 
+                    
+                    <ul>
+                        <li>x^2+12</li>
+                    </ul>
+                </div>
+                <div class="resSheet">
+                    <!-- result 1  -->
+                    <section class="resN">
+                        <header class="resHead">Solution</header>
+                        <div class="resVal">
+                            <ul id="eq_slot"></ul>
+                        </div>
+                    </section>
+                    <!-- result 2  -->
+                    <section class="resN">
+                        <header class="resHead">Graph</header>
+                        <div class="resVal">
+                            <div
+                                id="curve_chart"
+                                style="width: 100%; height: 400px"
+                            ></div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <footer class="Footer" id="footer">
+            <div class="ftRow">
+                <img src="..\static\wolframbetalogo.svg" class="smlogo" />
+            </div>
+            <div class="ftRow">
+                <p class="ftTxt">A personal project that imitates the mathematical side of Wolfram Alpha.<br>
+                    This webpage is developed as the final project for CS50x provided by Harvard University<br>
+                    It uses numerical methods to find the roots of any given expression and plots it over a given range. <br>
+                </p>
+            </div>
+            <ul class="ftRow">
+                <li class="ftEl">
+                    <a class="ftLnk" id="popbutton" onclick="popup()">
+                        Technical Stuff
+                    </a>
+                </li>
+                <li class="ftEl">
+                    <a href="" class="ftLnk">
+                        Wolfram-Alpha
+                    </a>
+                </li>
+                <li class="ftEl">
+                    <a href="" class="ftLnk">
+                        CS50 Course
+                    </a>
+                </li>
+                <li class="ftEl">
+                    <a href="" class="ftLnk">
+                        A Cute Kitten
+                    </a>
+                </li>
+            </ul>
+            <div class="_1ORL">
+                <nav class="banner">
+                    <div class="ftRow">
+                        <p class="ftTxt" id="sign"> Designed and Developed by Al-Moataz Imad <br>
+                        </p>
+                    </div>
+                        <ul class="_1rke">
+                            <li class="_2tFS">
+                                <!-- <p class="_1w_c _33TR _1axH" >Contact Me -->
+                                <p class="contme" >Contact Me
+                                </p>
+                            </li>
+                            <li class="_2tFS">
+                                <a href="https://www.linkedin.com/in/al-moataz-imad-568044150">
+                                    <svg
+                                            class="fticon" viewbox="0 0 76 76">
+                                            <path class="st2" d="M61.1,1.3H15.5C7.6,1.3,1.3,7.6,1.3,15.5v45.6c0,7.8,6.4,14.2,14.2,14.2h45.6c7.8,0,14.2-6.4,14.2-14.2V15.5
+                                                C75.3,7.6,69,1.3,61.1,1.3z M29.2,56.9h-7.7V32.1h7.7V56.9z M25.3,28.9c-2.5,0-4.5-2-4.5-4.6c0-2.5,2-4.6,4.5-4.6
+                                                c2.5,0,4.5,2,4.5,4.6C29.8,26.8,27.8,28.9,25.3,28.9z M57.9,56.9h-7.6c0,0,0-9.4,0-13c0-3.6-1.4-5.6-4.2-5.6
+                                                c-3.1,0-4.7,2.1-4.7,5.6c0,3.8,0,13,0,13h-7.3V32.1h7.3v3.3c0,0,2.2-4.1,7.5-4.1c5.2,0,9,3.2,9,9.8C57.9,47.8,57.9,56.9,57.9,56.9z
+                                                "/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="_2tFS">
+                                <a href="mailto:moataz.imad.me@gmail.com">
+                                <svg
+                                    class="fticon" viewbox="0 0 76 76">
+                                    <path
+                                    class="st2" d="M61.1,1.3H15.5C7.6,1.3,1.3,7.6,1.3,15.5v45.6c0,7.8,6.4,14.2,14.2,14.2h45.6c7.8,0,14.2-6.4,14.2-14.2V15.5    C75.3,7.6,69,1.3,61.1,1.3z M55.5,44.5c-1.7,2.6-4,3.9-6.9,3.9c-1.4,0-2.7-0.4-3.7-1.1c-1-0.7-1.7-1.6-1.9-2.7    c-1.3,2.5-3.5,3.8-6.4,3.8c-2.3,0-4.2-0.9-5.7-2.6c-1.5-1.7-2.3-3.9-2.3-6.5c0-3.5,1-6.2,3.1-8.2c1.7-1.6,3.7-2.4,5.9-2.4    c1.7,0,3.2,0.5,4.5,1.4l0.6-1.5h3.8v11.8c0,2.7,0.8,4,2.5,4c2.7,0,4-2.7,4-8.2c0-5-1.8-8.8-5.3-11.4c-2.6-2-5.6-3-9-3    c-4.7,0-8.4,1.6-11.3,4.8c-2.6,2.9-3.9,6.8-3.9,11.5c0,6,2,10.5,5.9,13.5c2.8,2.1,6.2,3.2,10.1,3.2c0.4,0,0.8,0,1.2-0.1l1.7-0.1    l0.1,3.8l-1.5,0.1c-0.4,0-0.7,0-1,0c-6,0-11-1.9-15.1-5.6c-4-3.7-6-8.6-6-14.6c0-6.6,2.2-11.8,6.6-15.6c3.6-3.2,8-4.8,13.3-4.8    c5.5,0,10,1.8,13.7,5.5c3.4,3.4,5.1,7.7,5.1,12.9C57.6,39.5,56.9,42.2,55.5,44.5z"/>
+                                    <path
+                                    class="st2" d="M33.7,38.6c0,3.9,1.3,5.8,4,5.8c2.7,0,4-1.9,4-5.7v-4.9c-0.9-0.8-2.2-1.2-3.8-1.2    C35.1,32.5,33.7,34.6,33.7,38.6z"/>
+                                </svg>
+                            </a>
+                            </li>
+                            <li class="_2tFS">
+                                <a href="https://wa.me/962779872869">
+                                <svg class="fticon" viewbox="0 0 76 76">
+                                    <path class="st8" d="M38.7,21.1c-8.7,0-15.9,6.6-16.7,15c-0.1,0.5-0.1,1.1-0.1,1.6c0,3.6,1.2,7,3.2,9.8L23,53.7l6.4-2.1
+                                        c2.7,1.7,5.8,2.8,9.2,2.8c9.2,0,16.8-7.5,16.8-16.6c0-0.4,0-0.9-0.1-1.3C54.7,27.9,47.5,21.1,38.7,21.1z M48.4,44.6
+                                        c-0.4,1.1-2.4,2.2-3.3,2.3c-0.9,0.1-0.9,0.7-5.9-1.2c-5-2-8.1-7-8.3-7.3c-0.2-0.2-1.3-1.7-1.7-3.4c-0.1-0.5-0.3-1.1-0.3-1.7
+                                        c0-2.4,1.3-3.6,1.7-4.1c0.4-0.5,1-0.6,1.3-0.6c0.3,0,0.7,0,0.9,0c0.3,0,0.7-0.2,1.1,0.8c0.4,1,1.4,3.4,1.5,3.6
+                                        c0.1,0.2,0.2,0.5,0,0.8c-0.1,0.2-0.2,0.4-0.3,0.6c-0.1,0.1-0.1,0.1-0.2,0.2c-0.3,0.3-0.5,0.6-0.7,0.8c-0.2,0.2-0.5,0.5-0.2,1
+                                        c0.3,0.5,1.3,2.1,2.7,3.4c1.9,1.7,3.4,2.2,3.9,2.4c0.5,0.2,0.8,0.2,1.1-0.1c0.3-0.3,1.2-1.4,1.5-1.9c0.3-0.5,0.7-0.4,1.1-0.2
+                                        c0.4,0.2,2.8,1.3,3.3,1.6c0.5,0.2,0.8,0.4,0.9,0.6C48.9,42.5,48.9,43.5,48.4,44.6z"/>
+                                    <path class="st8" d="M61.1,1.3H15.5C7.6,1.3,1.3,7.6,1.3,15.5v45.6c0,7.8,6.4,14.2,14.2,14.2h45.6c7.8,0,14.2-6.4,14.2-14.2V15.5
+                                        C75.3,7.6,69,1.3,61.1,1.3z M38.7,57.6c-3.5,0-6.8-0.9-9.6-2.5l-11,3.5L21.6,48c-1.8-3-2.9-6.5-2.9-10.2c0-0.3,0-0.6,0-0.9
+                                        C19.2,26.4,28,18,38.7,18c10.8,0,19.7,8.6,19.9,19.3c0,0.2,0,0.3,0,0.5C58.6,48.7,49.7,57.6,38.7,57.6z"/></svg>
+                                    </a>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+            
+        </footer>
+    </body>
+</html>

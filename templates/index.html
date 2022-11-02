@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"
+        ></script>
+        <script src="{{url_for('static', filename='jsScript.js')}}"></script>
+
+        <title>shows</title>
+    </head>
+    <body>
+
+        <input type="text" name="equation" placeholder="Equation" id="eq">
+        <input type="button" id="showf" value="show me">
+        <!-- <input autocomplete="off" id="tval" autofocus placeholder="Query" type="text"> -->
+        <p>[optionally] set limits:</p>
+        <ul></ul>
+        <input type="float" name="to"  placeholder="From" id='to'/>
+        <input type="float" name="from" placeholder="To" id='from'/>
+
+        <div id="curve_chart" style="width: 900px; height: 500px"></div>
+
+    </body>
+</html>
