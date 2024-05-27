@@ -1,0 +1,7 @@
+cs50
+flask
+pandas
+numpy
+seaborn
+
+

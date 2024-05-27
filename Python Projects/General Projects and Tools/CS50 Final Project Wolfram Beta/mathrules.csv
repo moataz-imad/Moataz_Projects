@@ -1,0 +1,16 @@
+in,out
+e^(,np.exp(
+e^x,np.exp(x)
+^,**
+sin,np.sin
+cos,np.cos
+tan,np.tan
+acos,np.acos
+atan,np.atan
+asin,np.asin
+pi,np.pi
+exp,np.exp
+log,np.log
+log10,np.log10
+sqrt,np.sqrt
+np.np,np

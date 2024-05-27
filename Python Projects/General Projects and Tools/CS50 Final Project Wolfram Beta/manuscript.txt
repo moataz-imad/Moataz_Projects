@@ -1,0 +1,23 @@
+logo: 
+A personal project that imitates the mathematical side of Wolfram Alpha.
+This webpage is developed as the final project for CS50x provided by Harvard University
+It uses numerical methods to find the roots of any given expression and plots it over a given range.
+
+Technical Stuff (pop-up):
+The frontend of the webpage is designed and developed using HTML, CSS, and Javascript
+the backend is developed using Python, Flask, and Javascript
+
+the numerical method used to find the root was the bisection method (link) 
+although it was a powerful way to find the root, it had some disadvantages so I had to develop my own (basic) method of optimizing the sectioning and finding the root.
+
+The graph visual is created with google charts
+
+The most challenging part was finding a way to insert the x,y series into the graph visual using javascript.
+
+Contact us:
+phone email LinkedIn
+
+Designed and Developed by Al-Moataz Imad
+
+Wolfram-Alpha - CS50 Course - A Cute Kitten
+

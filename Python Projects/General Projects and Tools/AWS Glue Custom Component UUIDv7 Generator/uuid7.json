@@ -1,0 +1,15 @@
+{
+    "name":"uuid7",
+    "displayName":"UUIDv7",
+    "description":"Generate a 36 character UUID version 7 for each row",
+    "functionName":"create_UUIDv7",
+    "parameters": [
+        {
+            "name":"column_name",
+            "displayName":"Column Name",
+            "description": "Name to use for the new column, by default: id.",
+            "type":"str",
+            "isOptional":true
+        }
+    ] 
+}

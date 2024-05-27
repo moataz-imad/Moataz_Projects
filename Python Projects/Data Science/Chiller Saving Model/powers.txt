@@ -1,0 +1,4 @@
+'FAHU','FAHU_RF1','FAHU_RF2','CH1','CH2A','CH2B',
+'CH3A','CH3B','CH4','PP1','PP2','PP3',
+'PP4','PP5','PP6','PP7','PP8','SP1',
+'SP2','SP3','MDB1','MDB2','MDB3','MDB4'

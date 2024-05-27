@@ -1,0 +1,234 @@
+,Name,cost,salary
+0,Afghanistan,0.86,185.03
+1,Aland Islands,1.95,2720.11
+2,Albania,1.66,388.83
+3,Alderney,2.31,???
+4,Algeria,0.29,237.73
+5,American Samoa,???,???
+6,Andorra,1.21,2369.75
+7,Angola,0.27,2400.0
+8,Anguilla,1.59,1500.0
+9,Antigua And Barbuda,1.22,962.05
+10,Argentina,0.91,423.28
+11,Armenia,1.13,425.5
+12,Aruba,1.28,1494.44
+13,Australia,1.38,4055.13
+14,Austria,1.82,2164.57
+15,Azerbaijan,0.59,323.44
+16,Bahamas,1.29,1701.27
+17,Bahrain,0.51,1572.99
+18,Bangladesh,1.04,287.03
+19,Barbados,1.93,1194.44
+20,Belarus,0.64,366.87
+21,Belgium,1.92,2411.81
+22,Belize,1.56,866.6
+23,Benin,0.86,222.05
+24,Bermuda,2.4,6624.26
+25,Bhutan,1.04,237.02
+26,Bolivia,0.55,498.49
+27,Bonaire,1.2,1366.67
+28,Bosnia And Herzegovina,1.29,578.17
+29,Botswana,0.89,897.22
+30,Brazil,1.35,412.1
+31,British Virgin Islands,1.14,2125.0
+32,Brunei,0.38,1907.3
+33,Bulgaria,1.5,736.05
+34,Burkina Faso,1.01,193.13
+35,Burundi,1.18,315.75
+36,Cambodia,1.14,263.92
+37,Cameroon,1.01,197.31
+38,Canada,1.19,3602.38
+39,Cape Verde,1.22,314.01
+40,Cayman Islands,1.53,4710.15
+41,Central African Republic,1.44,???
+42,Chad,0.88,280.91
+43,Chile,1.21,594.94
+44,China,1.22,1121.83
+45,Colombia,0.59,316.07
+46,Comoros,???,722.03
+47,Congo,1.34,525.0
+48,Cook Islands,1.27,1586.86
+49,Costa Rica,1.08,711.75
+50,Croatia,1.54,978.48
+51,Cuba,1.15,32.33
+52,Curacao,1.31,916.4
+53,Cyprus,1.45,1294.55
+54,Czech Republic,1.97,1429.49
+55,Denmark,2.04,3383.02
+56,Djibouti,1.45,520.11
+57,Dominica,1.14,458.27
+58,Dominican Republic,1.14,348.05
+59,Ecuador,0.67,494.77
+60,Egypt,0.4,225.74
+61,El Salvador,1.0,377.19
+62,Equatorial Guinea,0.91,321.04
+63,Eritrea,2.17,160.02
+64,Estonia,1.67,1287.25
+65,Ethiopia,0.68,190.77
+66,Falkland Islands,1.03,2940.0
+67,Faroe Islands,1.36,2182.95
+68,Fiji,1.03,662.45
+69,Finland,2.34,2561.19
+70,France,2.09,2379.11
+71,French Guiana,1.69,1509.22
+72,French Polynesia,1.22,1350.02
+73,French Southern Territories,1.66,1189.83
+74,Gabon,1.01,508.31
+75,Gambia,0.98,76.06
+76,Georgia,1.16,406.26
+77,Germany,2.32,2913.57
+78,Ghana,0.99,251.85
+79,Gibraltar,1.25,3084.12
+80,Greece,2.2,793.94
+81,Greenland,0.78,2309.16
+82,Grenada,1.44,908.23
+83,Guadeloupe,1.44,2218.56
+84,Guam,1.22,2325.0
+85,Guatemala,1.0,502.79
+86,Guernsey,1.63,2851.29
+87,Guinea,1.96,800.0
+88,Guinea-Bissau,1.07,999.02
+89,Guyana,0.98,355.62
+90,Haiti,1.45,667.2
+91,Honduras,1.09,502.05
+92,Hong Kong,2.58,3127.97
+93,Hungary,1.3,832.12
+94,Iceland,1.94,3316.15
+95,India,1.35,788.52
+96,Indonesia,0.84,330.73
+97,Iran,0.6,309.38
+98,Iraq,0.5,568.27
+99,Ireland,1.93,2711.48
+100,Isle Of Man,1.67,4626.03
+101,Israel,2.03,2645.46
+102,Italy,2.29,1527.47
+103,Ivory Coast,1.0,135.44
+104,Jamaica,1.13,524.52
+105,Japan,1.25,2587.93
+106,Jersey,1.68,3064.84
+107,Jordan,1.25,593.64
+108,Kazakhstan,0.43,398.74
+109,Kenya,1.13,437.59
+110,Kosovo (Disputed Territory),1.39,409.57
+111,Kuwait,0.32,1890.33
+112,Kyrgyzstan,0.76,248.44
+113,Laos,1.08,312.04
+114,Latvia,1.69,902.0
+115,Lebanon,1.12,997.3
+116,Lesotho,0.93,682.64
+117,Liberia,1.04,1828.0
+118,Libya,0.04,290.31
+119,Liechtenstein,1.66,5582.79
+120,Lithuania,1.72,1073.22
+121,Luxembourg,1.48,3906.97
+122,Macao,1.5,2394.59
+123,Madagascar,1.02,167.11
+124,Malawi,1.16,431.35
+125,Malaysia,0.47,827.44
+126,Maldives,0.74,827.44
+127,Mali,1.2,109.58
+128,Malta,1.44,1210.41
+129,Marshall Islands,1.19,1500.0
+130,Martinique,1.54,2316.48
+131,Mauritania,1.09,644.26
+132,Mauritius,1.15,541.98
+133,Mexico,1.11,630.58
+134,Micronesia,1.14,???
+135,Moldova,1.23,382.46
+136,Monaco,1.78,5855.55
+137,Mongolia,0.87,331.01
+138,Montenegro,1.41,554.72
+139,Montserrat,1.49,1295.07
+140,Morocco,1.12,398.28
+141,Mozambique,1.08,222.72
+142,Myanmar,0.72,237.01
+143,Namibia,1.03,789.91
+144,Nauru,1.26,630.54
+145,Nepal,1.03,199.54
+146,Netherlands,2.22,3306.43
+147,New Caledonia,1.22,2227.98
+148,New Zealand,1.78,2725.97
+149,Nicaragua,1.24,291.93
+150,Niger,0.89,200.65
+151,Nigeria,0.39,163.77
+152,Norfolk Island,1.65,1961.67
+153,North Korea,1.26,???
+154,North Macedonia,1.24,383.27
+155,Northern Mariana Islands,1.24,1156.0
+156,Norway,2.1,3322.22
+157,Oman,0.62,1601.67
+158,Pakistan,0.75,177.71
+159,Palau,1.47,???
+160,Palestine,1.93,756.46
+161,Panama,0.99,702.95
+162,Papua New Guinea,1.12,246.35
+163,Paraguay,1.07,326.25
+164,Peru,1.12,382.61
+165,Philippines,1.33,301.42
+166,Poland,1.38,1007.19
+167,Portugal,2.13,987.2
+168,Puerto Rico,0.88,1784.78
+169,Qatar,0.57,3580.43
+170,Republic Of Congo,1.33,649.98
+171,Reunion,1.6,1447.8
+172,Romania,1.7,725.85
+173,Russia,0.79,814.55
+174,Rwanda,1.08,373.64
+175,Saint Helena,1.71,848.76
+176,Saint Kitts And Nevis,2.44,???
+177,Saint Lucia,1.4,1017.56
+178,Saint Vincent And The Grenadines,3.67,863.38
+179,Samoa,1.06,600.0
+180,San Marino,1.47,2411.24
+181,Sao Tome And Principe,1.03,131.62
+182,Saudi Arabia,0.61,1835.12
+183,Senegal,1.2,421.37
+184,Serbia,1.5,561.41
+185,Seychelles,1.28,591.84
+186,Sierra Leone,1.0,1544.66
+187,Singapore,1.9,4036.11
+188,Sint Maarten,1.2,1904.72
+189,Slovakia,1.55,972.5
+190,Slovenia,1.46,1201.28
+191,Solomon Islands,1.19,556.0
+192,Somalia,0.94,368.46
+193,South Africa,1.3,1369.15
+194,South Korea,1.33,2167.63
+195,South Sudan,1.75,750.0
+196,Spain,1.59,1746.08
+197,Sri Lanka,0.69,132.75
+198,Sudan,0.84,104.89
+199,Suriname,0.77,207.0
+200,Swaziland,1.0,855.9
+201,Sweden,2.0,2750.57
+202,Switzerland,1.82,5747.89
+203,Syria,0.88,58.82
+204,Taiwan,1.01,1404.05
+205,Tajikistan,0.8,135.36
+206,Tanzania,1.07,206.47
+207,Thailand,1.23,515.62
+208,Timor-Leste,0.96,283.33
+209,Togo,0.84,535.07
+210,Tonga,0.98,1001.28
+211,Trinidad And Tobago,0.82,840.42
+212,Tunisia,0.7,282.62
+213,Turkey,1.32,329.01
+214,Turkmenistan,0.43,542.52
+215,Turks And Caicos Islands,1.41,2888.89
+216,Tuvalu,???,3543.16
+217,Uganda,1.16,148.91
+218,Ukraine,1.06,511.19
+219,United Arab Emirates,0.83,3505.95
+220,United Kingdom,1.91,2850.9
+221,United States,0.99,3622.18
+222,Uruguay,1.69,685.4
+223,Us Virgin Islands,0.91,2516.67
+224,Uzbekistan,0.83,256.88
+225,Vanuatu,1.38,851.69
+226,Vatican City,2.01,???
+227,Venezuela,0.51,201.54
+228,Vietnam,1.13,434.56
+229,Western Sahara,0.95,210.59
+230,Yemen,1.68,285.75
+231,Zambia,1.23,630.61
+232,Zimbabwe,1.35,296.78
