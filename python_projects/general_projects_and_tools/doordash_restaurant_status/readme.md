@@ -8,7 +8,6 @@ Welcome to the Restaurant Availability Notifier project! This script continuousl
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
-  - [Installation](#installation)
 
 ## Introduction
 
@@ -19,13 +18,3 @@ Talabat is a popular food delivery app in Jordan, offering various discounts and
 - **Continuous Monitoring:** Checks the status of the specified restaurant every minute.
 - **Notification Sound:** Plays a sound on Windows when the restaurant becomes available.
 - **Email Notification:** Sends an email notification when the restaurant is available for orders.
-
-## Installation
-
-To run this project, you need to have Python installed. Follow the steps below to set up the environment:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/talabat-availability-notifier.git
-   cd talabat-availability-notifier

@@ -25,12 +25,3 @@ The project integrates data from the following sources:
 1. **FAHU Sensors:** Local sensors providing real-time weather conditions such as temperature, humidity, and wind speed.
 2. **Internet Weather APIs:** Online sources providing comprehensive weather data.
 
-## Installation
-
-To run this project, you need to have Python installed. Follow the steps below to set up the environment:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/weather-data-cleaner.git
-   cd weather-data-cleaner

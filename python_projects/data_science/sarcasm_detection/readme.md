@@ -8,7 +8,6 @@ Welcome to the Sarcasm Detector project! This project aims to leverage Natural L
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Dataset](#dataset)
-  - [Installation](#installation)
 
 ## Introduction
 
@@ -23,14 +22,4 @@ The dataset used for this project is a collection of news headlines labeled as e
 The dataset contains the following columns:
 - `headline`: The headline text.
 - `is_sarcastic`: A binary label where `1` indicates sarcasm and `0` indicates a real headline.
-
-## Installation
-
-To run this project, you need to have Python installed. Follow the steps below to set up the environment:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/sarcasm-detector.git
-   cd sarcasm-detector
 

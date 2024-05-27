@@ -8,7 +8,6 @@ Welcome to the Manga Downloader and PDF Combiner project! This script downloads 
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
-  - [Installation](#installation)
 
 ## Introduction
 
@@ -19,13 +18,3 @@ Downloading manga chapters page by page can be a tedious task, and managing larg
 - **Automated Download:** Downloads manga pages from a specified source.
 - **Chapter Grouping:** Groups downloaded pages into chapters.
 - **PDF Creation:** Combines every 10 chapters into a single PDF file for easy reading.
-
-## Installation
-
-To run this project, you need to have Python installed. Follow the steps below to set up the environment:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/manga-downloader.git
-   cd manga-downloader
