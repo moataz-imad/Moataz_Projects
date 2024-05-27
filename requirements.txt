@@ -1,5 +1,0 @@
-cs50
-flask
-pandas
-math
-
