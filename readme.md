@@ -30,7 +30,7 @@ I have worked on many projects covering multiple fields, from data science to we
   - [Gas price comparison across the world.](python_projects/general_projects_and_tools/gas_price_comparison/)
   - [Flight ticket price comparison.](python_projects/general_projects_and_tools/flight_ticket_price_web_scraper/)
   - [Automated parking registeration.](python_projects/general_projects_and_tools/automated_visitor_parking_registration/)
-  - [Restaurant availability notification.](python_projects/general_projects_and_tools/doordash_restaurant_status/)
+  - [Restaurant availability notification.](python_projects/general_projects_and_tools/talabat_restaurant_status/)
 
 
 ## Tools  
