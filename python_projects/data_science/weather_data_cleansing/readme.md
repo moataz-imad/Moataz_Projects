@@ -2,17 +2,11 @@
 
 Welcome to the Weather Data Cleaner project! This project aims to gather weather data from multiple FAHU sensors and online sources, clean it, and provide a unified source of truth that can be used in future projects.
 
-## Table of Contents
 
+## Table of Contents
 - [Introduction](#introduction)
 - [Data Sources](#data-sources)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Cleaning Process](#data-cleaning-process)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Introduction
 
